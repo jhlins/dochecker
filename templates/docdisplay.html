@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+{#<link rel="stylesheet" href="../static/default.css">#}
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Doc Display</title>
+</head>
+<body>
+    {% for name in image_names %}
+        <img src="..\static\Tempimgstore\{{ name }}">
+    {% endfor %}
+</body>
+</html>
